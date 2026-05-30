@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            color: white;
+            background-color: blue;
+            font-size: larger;
+            font-weight: bolder;
+            border-radius: 20px;
+        }
+
+        .menu {
+
+     
+            display: none;
+           
+        }
+
+        .menu.active {
+            display: flex;
+             justify-content: space-around;
+            background-color: black;
+            margin-top: 20px;
+            padding: 30px;
+            font-size: 20px;
+            border-radius: 99px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <buttton class="btn">
+        Click to open menu
+    </buttton>
+
+    <div class="menu">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+
+    </div>
+    <script src="navbar.js"></script>
+</body>
+
+</html>
