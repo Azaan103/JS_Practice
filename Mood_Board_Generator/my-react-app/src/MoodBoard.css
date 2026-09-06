@@ -1,0 +1,20 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: bisque;
+}
+
+.projname{
+    font-size: 1rem;
+    font-weight: semi-bold;
+    padding: 1rem;
+    margin:1rem;
+}
+

@@ -1,16 +1,41 @@
-# React + Vite
+1. User enters a theme
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Example:
 
-Currently, two official plugins are available:
+"Retro gaming"
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+or
 
-## React Compiler
+"Japanese coffee shop"
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. User selects a few visual properties
 
-## Expanding the Oxlint configuration
+For example:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Style
+
+Minimal
+Retro
+Futuristic
+Editorial
+Playful
+
+Mood
+
+Calm
+Energetic
+Dark
+Warm
+Experimental
+
+You don't need 50 options.
+
+3. App generates a moodboard
+
+The board could contain:
+
+4–6 images
+3–5 colors
+a title
+a few keywords
+typography suggestion
