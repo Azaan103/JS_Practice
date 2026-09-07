@@ -11,10 +11,102 @@
     background-color: bisque;
 }
 
-.projname{
-    font-size: 1rem;
-    font-weight: semi-bold;
-    padding: 1rem;
-    margin:1rem;
+h1{
+    color: rgb(57, 88, 3);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ques1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
 
+.projname{
+    
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem;
+    margin:1rem;
+    width:100%;
+    border-radius: 99px;   
+    border:none; 
+    text-align: center;
+    font-family:'Courier New', Courier, monospace
+
+}
+
+.projname:focus{
+    outline:none;
+    border: 1px solid rgb(57,88,3);
+}
+
+.next{
+    padding:10px;
+    width:70%;
+    background-color: rgb(57, 88, 3);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border:none;
+    border-radius: 99px
+}
+
+.next:hover{
+    background-color: rgb(231, 233, 229);
+    color: rgb(57, 88, 3);
+    font-size: 1rem;
+    font-weight: bold;
+    border:none;
+    border-radius: 99px;
+    cursor:pointer;
+    width:20rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.headingback{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.back{
+    margin-bottom:  1rem ;
+    padding:10px;
+    width:40%;
+    background-color: rgb(57, 88, 3);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border:none;
+    border-radius: 99px;
+    cursor: pointer;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+}
+
+.b1{
+    padding: 10px;
+    margin: 5px;
+    border:none;
+    border-radius: 99px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:chocolate;
+    font-weight: bold;
+}
+
+.nxt{
+    background-color: rgb(57, 88, 3);
+    color: white;
+    cursor: pointer;
+}
+
+.nxt:hover{
+    background-color: white;
+    color: rgb(57, 88, 3);
+    transition: 500ms ease-out;
+}
